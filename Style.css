@@ -1,0 +1,9 @@
+body{
+    zoom: 2;
+    justify-content: center;
+    display: flex;
+}
+
+input{
+    margin-right: 20px;
+}
