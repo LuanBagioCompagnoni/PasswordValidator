@@ -1,9 +1,22 @@
 body{
     zoom: 2;
     justify-content: center;
+    width: 100%;
     display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 input{
     margin-right: 20px;
+}
+
+#campo{
+    display: flex;
+    justify-content: center;
+}
+
+button{
+    width: 50%;
+    margin-top: 20px;
 }
