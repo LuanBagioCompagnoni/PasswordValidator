@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
     <link rel="stylesheet" href="Style.css">
     <title>Password</title>
 </head>
@@ -12,10 +13,17 @@
 <body>
     <div id="campo">
         <input type="password" id="password">
-        <div id="resultado"></div>
+        <button type="button" onclick="savePassword()" class="btn btn-dark">Salvar senha</button>
     </div>
-    <button type="button" onclick="savePassword()">Salvar senha</button>
+    <div id="resultado"></div>
+    <div>
+        <p id="mai">Letras maiúsculas</p>
+        <p id="minu">Letras minúsculas</p>
+        <p id="esp">Caracteres especiais</p>
+        <p id="num">Numeros</p>
+        <p id="min">Minimo 10 caracteres</p>
+    </div>
+    
 </body>
 <script src="Script.js"></script>
-
 </html>
